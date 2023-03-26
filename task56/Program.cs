@@ -13,7 +13,7 @@ int m = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите размерность n массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
-h
+
 int[,] randomArray = new int[m, n];
 
 void mas(int m, int n)
