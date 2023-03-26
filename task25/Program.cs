@@ -1,5 +1,5 @@
 ﻿// Задача 25
-//Напишите цикл, который принимает на вход два числа (A и B) 
+// Напишите цикл, который принимает на вход два числа (A и B) 
 // и возводит число A в натуральную степень B.
 
 // 3, 5 -> 243 (3⁵)
@@ -19,7 +19,7 @@ int step = Step(afirstDigit, bsecondDigit);
 
 int Step (int a, int b)
 {
-double Math.Pow(a, b);
+double Math.Pow(a * b);
 }
 
 // Console.WriteLine(Math.Pow);

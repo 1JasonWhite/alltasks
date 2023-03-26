@@ -45,7 +45,7 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] array2d = CreateMatrixRndInt(3, 4, -10, 10);
+int[,] array2d = CreateMatrixRndInt(3, 4, 1, 10);
 PrintMatrix(array2d);
 int result = SumDiagonale(array2d);
 Console.WriteLine($"Сумма элементов диагонали равна {result}");

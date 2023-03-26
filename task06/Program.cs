@@ -36,3 +36,14 @@ else
 {
     Console.WriteLine($"{number3} Нечетное число!");
 }
+
+
+
+
+//Второй способ решения задачи:
+
+// Console.WriteLine("Введите первое число: ");
+// int numberA = Convert.ToInt32(Console.ReadLine());
+
+// if(numberA % 2 == 0) Console.WriteLine($"Число {numberA} чётное");
+// else Console.WriteLine($"Число {numberA} нечётное");
