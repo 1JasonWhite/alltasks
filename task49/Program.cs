@@ -48,7 +48,7 @@ void ReplaceBothAreEven (int[,] matrix)
 
 }
 
-int[,] array2d = CreateMatrixRndInt(3, 4, -100, 100);
+int[,] array2d = CreateMatrixRndInt(3, 4, 5, 10);
 PrintMatrix(array2d);
 ReplaceBothAreEven (array2d);
 Console.WriteLine();

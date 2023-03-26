@@ -25,5 +25,14 @@ else
     Console.WriteLine("{0} наименьшее число", number2);
 }
 
-//add comment 
 
+
+//Второй вариант
+
+// Console.WriteLine("Введите первое число: ");
+// int numberA = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число: ");
+// int numberB = Convert.ToInt32(Console.ReadLine());
+
+// if(numberA > numberB) Console.WriteLine($"Максимальная цифра: {numberA}");
+// else Console.WriteLine($"Максимальная цифра: {numberB}");

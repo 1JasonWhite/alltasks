@@ -27,3 +27,21 @@ if(number3 > max)
     max = number3;
 }
 Console.WriteLine("Максимальное число {0}" , max);
+
+
+
+
+//Второй вариант решения задачи:
+
+// Console.WriteLine("Введите первое число: ");
+// int numberA = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine("Введите второе число: ");
+// int numberB = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine("Введите третье число: ");
+// int numberC = Convert.ToInt32(Console.ReadLine());
+
+// if(numberA > numberB) Console.WriteLine($"Максимальное число: {numberA}");
+// if(numberB > numberC) Console.WriteLine($"Максимальное число: {numberB}");
+// if(numberC > numberA) Console.WriteLine($"Максимальное число: {numberC}");
